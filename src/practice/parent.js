@@ -6,8 +6,8 @@ class nice extends Component {
         super();
         this.state = {}
         
-    }
-
+    };
+    
     componentWillMount(){
         this.setState({
             projects : [
@@ -34,6 +34,7 @@ class nice extends Component {
         alert('I am clicked!!')
 
     }
+    //recevng object array from addprojecct
     handleAddproject =(params)=>{
         console.log("ye h wo "+ params.category);
         let Project = this.state.projects;   // var = state
@@ -45,7 +46,7 @@ class nice extends Component {
     render() {
         return (
         <div className="jumbotron jutify-content-center">
-                <h1 className="bg-warning">Here We are dealing with State update and geting function called by props with geting parameters</h1>
+                <h1 className="bg-primary">Here We are dealing with State update and geting function called by props with geting parameters</h1>
 
             <button onClick={this.niceF} className="btn btn-danger">i m a button</button>    
             

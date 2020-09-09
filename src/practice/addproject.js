@@ -10,6 +10,8 @@ class nice extends Component {
         }
 
     }
+	
+	//03084879106  //farhan
 
     handleSubmit = (e) => {
         if (this.refs.title.value === '')
@@ -21,7 +23,9 @@ class nice extends Component {
                         title: this.refs.title.value,
                         category: this.refs.category.value
                     }
-                }, function () { 
+                    
+                }, 
+                function () { 
                     //calling function written in parent component and passsing ned project object
                     this.props.addProject(this.state.newprojects)
                 })

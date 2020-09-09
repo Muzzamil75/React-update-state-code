@@ -19,13 +19,12 @@ class nice extends Component {
 
     render() { 
         return (<div>
-            <button onClick={this.fetch} className="btn btn-primary">clickk</button>
+            <button onClick={this.fetch} className="btn btn-primary">Click to fetch robots</button>
             <div>
                 {this.state.robots.map(i=>{
                     return <Card   name={i.name} key={i} email={i.email} id={i.id}/>
 
                 })}
-
             </div>
 
 
