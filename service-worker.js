@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Muzzamil75/React-update-state-code/precache-manifest.d8aa2f4626c19ebd08e4344ebd9702a3.js"
+  "/Muzzamil75/Robo-Friends/precache-manifest.8f62bb97f1207e83fc1e9b74f4e3d6dc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Muzzamil75/React-update-state-code/index.html", {
+workbox.routing.registerNavigationRoute("/Muzzamil75/Robo-Friends/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
