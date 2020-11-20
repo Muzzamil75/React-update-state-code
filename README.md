@@ -1,4 +1,4 @@
-### Here is the runing version https://fierce-everglades-42264.herokuapp.com/
+### Here is the running version https://fierce-everglades-42264.herokuapp.com/
 #### Available Sscripts
 
 
